@@ -9,6 +9,11 @@ body {
   padding: 10px;
 }
 
+section {
+  border: 3px groove #DAA520
+  padding: 10px
+}
+
 th {
   color: purple;
   border: 1px solid #665544;
