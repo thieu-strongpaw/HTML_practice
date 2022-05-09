@@ -8,3 +8,13 @@ body {
   background-color: #efefef;
   padding: 10px;
 }
+
+th {
+  color: purple;
+  border: 1px solid #665544;
+  padding: 10px;
+}
+
+td {
+  border: 1px solid #665544;
+}
