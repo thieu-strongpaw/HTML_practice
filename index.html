@@ -6,6 +6,8 @@
   
   <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
   <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+  <link href="style_sheet.css" type="text/css" rel="stylesheet" />
+
   
  </head>
 
@@ -22,7 +24,8 @@ print('Holy moly Batman! This is a python script!!')
   <a href="#text markup">Text Markup</a><br />
   <a href="#lists">Lists</a><br />
   <a href="#links">Links</a><br />
-  <a href="#images">Images</a>
+  <a href="#images">Images</a><br />
+  <a href="table.html">This links to another page with a table</a>  <!-- This will have to be tested still as of 5.8.22-->
 
   <h1>Welcome to My First Web Page</h1>
 
@@ -106,8 +109,13 @@ print('Holy moly Batman! This is a python script!!')
 <a href="https://www.desmos.com/calculator">Graphing Calculator</a>
 
 <h2 id="images">Images</h2>
+
 <p>Shadow is purfect.</p>
-<img src="shadow_sitting.jpg" alt="This is very cool cat." title="shadow sitting">
+<figure>
+ <img src="shadow_sitting.jpg" alt="This is very cool cat." title="shadow sitting" width="370" height="500">
+ <br />
+ <figcaption>I love her. you couldn't ask for a better lap cat.</figcaption>
+ </figure>
 
  </body>
 
