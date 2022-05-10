@@ -4,14 +4,20 @@ h1, h2, h3 {
 }
 
 body {
-  border: 2px solid #665544;
-  background-color: #efefef;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #73767a;
   padding: 10px;
 }
 
 section {
   border: 3px groove #DAA520;
   padding: 10px;
+}
+
+div#table_of_content {
+  color: blue;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 
