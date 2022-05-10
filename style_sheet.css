@@ -5,12 +5,12 @@ h1, h2, h3 {
 
 body {
   font-family: "Courier New", Courier, monospace;
-  background-color: #919499;
+  background-color: #fffef0;
   padding: 10px;
 }
 
 section {
-  border: 3px groove #DAA520;
+  border: 3px groove #b9a760;
   padding: 10px;
 }
 
@@ -23,10 +23,10 @@ div#table_of_content {
 
 th {
   color: purple;
-  border: 1px solid #665544;
+  border: 1px solid #685a35;
   padding: 10px;
 }
 
 td {
-  border: 1px solid #665544;
+  border: 1px solid #abd8aa;
 }
